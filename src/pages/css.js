@@ -1,7 +1,6 @@
+import React from "react";
 
-import "./App.css";
-
-function App() {
+const Css = () => {
   return (
     <div className="App">
       <header className="hide-when-mobile">
@@ -152,9 +151,7 @@ function App() {
         </div>
       </header>
 
-      <main>
-       Home page
-      </main>
+      <main>Css page</main>
 
       <footer>
         Designed and developed by Anas Obeidat
@@ -162,6 +159,6 @@ function App() {
       </footer>
     </div>
   );
-}
+};
 
-export default App;
+export default Css;
